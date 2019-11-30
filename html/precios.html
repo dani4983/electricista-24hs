@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Eléctricista</title>
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <link rel="manifest" href="../img/site.webmanifest">
+  <link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--  Google font  -->
+
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+
+  <!--    BOOTSTRAP    -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
+
+  <!--Custom-->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/logo.png" style="width: 40%;" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3 float-left">
+              <a class="nav-link h4 mt-4" href="../index.html">Urgencias</a>
+            </li>
+
+            <li class="nav-item mx-3 float-left active">
+              <a class="nav-link h4 mt-4" href="#">Servicios & Precios<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-3 float-right">
+              <a class="nav-link h4 mt-4" href="tel:1169293389">Llamanos <img src="../img/whatsapp.png" style="width: 15%;"
+                  alt="logo whatsapp"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section-0 bg-dark">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="text-center">
+          <h1 class="texto-header text-white m-5">
+            Lista de servicios y precios
+          </h1>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="section-1 p-5">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center minh-100">
+
+        <div class="accordion" id="accordionExample">
+          <div class="card h5 bg-warning">
+            <div class="card-header" id="headingzero">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsezero"
+                  aria-expanded="true" aria-controls="collapsezero">
+                  Urgencias
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapsezero" class="collapse" aria-labelledby="headingzero" data-parent="#accordionExample">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>Lunes a Sabados a partir de las 20:00hs</td>
+                    <td>$2100</td>
+                  </tr>
+                  <tr>
+                    <td>Domingo y Feriados</td>
+                    <td>$2500</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card h5 bg-warning">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Artefactos de iluminación y otros
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <table style="width: 100%;" class="text-center">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>
+                        Por Unidad
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Artefacto aplique simple</td>
+                      <td>$500</td>
+                    </tr>
+                    <tr>
+                      <td>Artefacto colgante liviano de hasta 3 luces 1 efecto</td>
+                      <td>$990</td>
+                    </tr>
+                    <tr>
+                      <td>Artefacto colgante liviano de hasta 5 luces 1 efecto</td>
+                      <td>$1300</td>
+                    </tr>
+                    <tr>
+                      <td>Adicional por cada efecto de artefacto colgante</td>
+                      <td>$320</td>
+                    </tr>
+                    <tr>
+                      <td>Artefacto colgante pesado</td>
+                      <td>$1700</td>
+                    </tr>
+                    <tr>
+                      <td>Equipo de tubo led simple de 7W a 36W</td>
+                      <td>$990</td>
+                    </tr>
+                    <tr>
+                      <td>Equipo de tubo led doble de 7W a 36W</td>
+                      <td>$1200</td>
+                    </tr>
+                    <tr>
+                      <td>Equipo de tubo led simple de 45W</td>
+                      <td>$1240</td>
+                    </tr>
+                    <tr>
+                      <td>Equipo de tubo led doble de 45W</td>
+                      <td>$1530</td>
+                    </tr>
+                    <tr>
+                      <td>Spot led</td>
+                      <td>$500</td>
+                    </tr>
+                    <tr>
+                      <td>Spot dicroica y/o halospot con trafo embutido</td>
+                      <td>$400</td>
+                    </tr>
+                    <tr>
+                      <td>Spot incandecente de aplique</td>
+                      <td>$300</td>
+                    </tr>
+                    <tr>
+                      <td>Plafones embutido en cieloraso de durlock</td>
+                      <td>$480</td>
+                    </tr>
+                    <tr>
+                      <td>Luminaria al intemperie amurado en pared</td>
+                      <td>$300</td>
+                    </tr>
+                    <tr>
+                      <td>Luminaria exterior con columna hasta 3mts</td>
+                      <td>$1900</td>
+                    </tr>
+                    <tr>
+                      <td>Luminaria exterior con brazos hasta 4mts de altura amurado en pared</td>
+                      <td>$1400</td>
+                    </tr>
+                    <tr>
+                      <td>Luminaria exterior de aplicar en muro al intemperie (ip x5 ó ip x 6)</td>
+                      <td>$700</td>
+                    </tr>
+                    <tr>
+                      <td>Luminaria de pileta de natación y/o fuente</td>
+                      <td>$1300</td>
+                    </tr>
+                    <tr>
+                      <td>Instalación de artefacto de iluminación con fotocélula individual</td>
+                      <td>$730</td>
+                    </tr>
+                    <tr>
+                      <td>Instalación de luz de emergencia</td>
+                      <td>$660</td>
+                    </tr>
+                    <tr>
+                      <td>Armado y colocación de luminaria a más de 6mts de altura</td>
+                      <td>$1700</td>
+                    </tr>
+                    <tr>
+                      <td>Ventilador de techo</td>
+                      <td>$1800</td>
+                    </tr>
+                    <tr>
+                      <td>Ventilador de techo con luminaria de 1 efecto</td>
+                      <td>$2260</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card h5 bg-warning">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Canalización de cañerías
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <h6>Con boca nos referimos a: Caja rectagular, cuadrada u octogonal de medidas estándar, con una
+                  extensión máxima de cañería de 5mts entre sí. SI la extensión de la cañería supera los 5mts se cotiza
+                  otra boca</h6>
+                <p>Solo se puntearán las cañerías para asegurarlas a la pared, el cerrado de canaletas y revoque final
+                  queda a cargo del profecional correspondiente</p>
+                <table style="width: 100%;">
+                  <thead>
+                    <th></th>
+                    <th>Por boca</th>
+                    <th>Por metro</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Canalización en losa con caño metalico</td>
+                      <td>$920</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Canalización en loseta con caño metalico</td>
+                      <td>$970</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Amurado de cañería en pared con ladrillo común </td>
+                      <td>$1100</td>
+                      <td>$300</td>
+                    </tr>
+                    <tr>
+                      <td>Amurado de cañería en pared con ladrillo hueco</td>
+                      <td>$1050</td>
+                      <td>$250</td>
+                    </tr>
+                    <tr>
+                      <td>Amurado de cañería a la vista de metal, PVC, cablecanal(14x30)</td>
+                      <td>$830</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Paso por viga y/o columna</td>
+                      <td>$970</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th>Cable subterráneo</th>
+                      <th>Tierra</th>
+                      <th>Piso</th>
+                    </tr>
+                    <tr>
+                      <td>A razón de una boca cada 5 mts</td>
+                      <td>$900</td>
+                      <td>$1000</td>
+                    </tr>
+                    <tr>
+                      <td>Adicional por cada caja de paso</td>
+                      <td>$970</td>
+                      <td>$1060</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card h5 bg-warning">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Cableado
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <table style="width: 100%;">
+                  <thead>
+                    <th>Cableado en obra nueva</th>
+                    <th>Por boca</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Canalización realizada por nosotros</td>
+                      <td>$450</td>
+                    </tr>
+                    <tr>
+                      <td>Canalización realizada por otro</td>
+                      <td>$620</td>
+                    </tr>
+                    <tr>
+                      <th>Recableado</th>
+                      <th>Por boca</th>
+                    </tr>
+                    <tr>
+                      <td>Recableado con artefactos (*)</td>
+                      <td>$930</td>
+                    </tr>
+                    <tr>
+                      <td>Recableado sin artefactos (*)</td>
+                      <td>$620</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>* No incluye cables pegados a la cañería o cualquier otro vicio oculto en la instalación, lo cual se
+                  cotizará en el momento</p>
+              </div>
+            </div>
+          </div>
+          <div class="card h5 bg-warning">
+            <div class="card-header" id="headingfour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefour"
+                  aria-expanded="false" aria-controls="collapsefour">
+                  Cambio e instalaciones
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+              <div class="card-body">
+
+                <table style="width: 100%;">
+                  <thead>
+                    <th></th>
+                    <th>Por unidad</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Cambio o instalacion de llave térmica</td>
+                      <td>$610</td>
+                    </tr>
+                    <tr>
+                      <td>Cambio o instalacion de disyuntor</td>
+                      <td>$610</td>
+                    </tr>
+                    <tr>
+                      <td>Colocación o cambio tecla de encendido</td>
+                      <td>$320</td>
+                    </tr>
+                    <tr>
+                        <td>Colocación o cambio tecla de encendido combinada</td>
+                        <td>$350</td>
+                      </tr>
+                    <tr>
+                      <td>Colocación o cambio de tomacorriente</td>
+                      <td>$320</td>
+                    </tr>
+                    <tr>
+                      <td>Colocación o cambio de tomacorriente doble</td>
+                      <td>$410</td>
+                    </tr>
+                    <tr>
+                        <td>Colocación o cambio de portalámpara</td>
+                        <td>$320</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="icon-whatsapp">
+    <a class="text-right" href="tel:1169293389"><img src="../img/whatsapp.png" style="width: 20%;"
+        alt="logo whatsapp"></a>
+  </div>
+
+  <footer class="bg-dark text-light section-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="mt-3 clahover text-center">
+          <img src="../img/logo.png" style="width: 30%;" alt="logo">
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
